@@ -1,3 +1,5 @@
+from setupenv import setupenv
+setupenv()
 from Bots.teleClient import TelegramBotClient
 from Bots.discordClient import DiscordBotClient
 from imageGenerationsApi import ImageGenerationAPI
